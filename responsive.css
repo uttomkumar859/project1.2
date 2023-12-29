@@ -408,7 +408,8 @@
         grid-template-columns: 1fr;
         row-gap: 30px;
     }
-    /* -------partners section end----------- */  .partners_section .right_col img {
+    /* -------partners section end----------- */
+    .partners_section .right_col img {
         order: -1;
     }
     .partners_section .left_col{
