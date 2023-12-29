@@ -113,8 +113,12 @@
         width: 100%;
         /* display: none; */
     }
+    .dsbp_advisor h2{
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
     .dsbp_advisor .advisor_container{
-        width: 60%;
+        width: 70%;
     }
     /* -----dsbp advisor section end----- */
     .eligibilty{
@@ -334,11 +338,14 @@
     /* -----industry project section start ------ */
     .dsbp_advisor{
         width: 100%;
-        height: 60vh;
+        padding-top: 20px;
         /* display: none; */
     }
+    .dsbp_advisor h2{
+        padding-top: 0;
+    }
     .dsbp_advisor .advisor_container{
-        width: 80%;
+        width: 100%;
     }
     .advisor_container .advisor_info p{
         font-size: 16px;
@@ -360,6 +367,9 @@
     .apply_section{
         width: 100%;
         /* display: none; */
+    }
+    .apply_section h2{
+        padding-top: 0;
     }
     .apply_section .apply_flex{
         display: grid;
@@ -435,6 +445,11 @@
     }
 }
 
+
+
+
+
+
 /* ---------------- */
 /* --------mobile Device-------- */
 @media (max-width:430px) {
@@ -458,6 +473,7 @@
     .program_outcome {
         padding: 30px 0;
     }
+    /* program outcome start */
     .program_outcome  h2{
         padding-top: 0;
         padding-bottom: 0;
@@ -466,6 +482,9 @@
     .program_outcome .left_col{
         width: 100%;
         padding-top: 0;
+    }
+    .program_outcome .right_col{
+        width: 100%;
     }
     .mql_program_etails h2{
         font-size: 20px;
@@ -479,4 +498,5 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    
 }
