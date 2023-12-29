@@ -1,0 +1,481 @@
+@media (max-width: 990px) {
+    .container{
+        max-width: 90%;
+       padding: 0 40px;
+    }
+    .header{
+        /* display: none; */
+    }
+    .main_header .navbar .nav_items{
+        display: none;
+    }
+    /* ---------header section end----------- */
+    .banner{
+        display: none;
+    }
+    .program_highlight{
+        width: 100%;
+        /* display: none; */
+    }
+    .program_highlight .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .company_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .company_section .company_logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+    /* ---------company section end --------- */
+    .enterprise_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .enterprise_section .flex_col{
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+    .enterprise_section .item3{
+        line-height: 0;
+        margin-bottom: 20px;
+    }
+    /*----------- enterprice section end------- */
+    .our_alumni{
+        width: 100%;
+        /* display: none; */
+    }
+    /* -------------our alumni section end ----------- */
+    .program_outcome{
+        width: 100%;
+        /* display: none; */
+    }
+    .program_outcome .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .program_outcome .left_col {
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .program_outcome .right_col{
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .program_outcome .right_col .prog_info{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .program_outcome .right_col .prog_info li p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* -------------program_outcome section end ----------- */
+    .mql_program_etails{
+        width: 100%;
+        /* display: none; */
+    }
+    .mql_program_etails h2{
+        font-size: 28px;
+        margin-top: 36px;
+    }
+    /*  ---------    .mql_program_etails section end -------------*/
+    .skill_covered{
+        width: 100%;
+        /* display: none; */
+    }
+    /* -------skill_covered section end------- */
+    .total_covered_wrapper{
+        width: 100%;
+        /* display: none; */
+    }
+    .total_covered_wrapper .col_flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    /*  ------totall covered wrapper section end--------- */
+    .industry_project{
+        width: 100%;
+        /* display: none; */
+    }
+    .industry_project .item{
+        height: 330px;
+    }
+    /* -----industry project section start ------ */
+    .dsbp_advisor{
+        width: 100%;
+        /* display: none; */
+    }
+    .dsbp_advisor .advisor_container{
+        width: 60%;
+    }
+    /* -----dsbp advisor section end----- */
+    .eligibilty{
+        width: 100%;
+        /* display: none; */
+    }
+    .eligibilty .eligibilty_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .eligibilty .eligibilty_left ul li{
+        margin: 10px 0;
+    }
+    /* ------ sligibilty section end -----  */
+    .apply_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .apply_section .apply_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .apply_section .left_apply ul li h2{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .apply_section .right_apply{
+        position: relative;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+    /* -----apply_section end -----  */
+    .pg_enterprice_demand{
+        width: 100%;
+        /* display: none; */
+    }
+    /* pg enterprice demand section end */
+    .faqs_section{
+        width: 100%;
+        /* display: none; */
+    }
+    /*---------- faqs section end--------- */
+    .other_program{
+        width: 100%;
+        /* display: none; */
+    }
+    /* ---------other program section end---------- */
+    .partners_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .partners_section .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    /* -------partners section end----------- */  .partners_section .right_col img {
+        order: -1;
+    }
+    .partners_section .left_col{
+        order: 2;
+    }
+    /* -------partners sectio end */
+    .footer_section{
+        width: 100%;
+        /* display: none; */
+    }
+}
+/* ----------------------------------------- */
+/* ----------i Pad Devices ------------ */
+@media (max-width: 768px) {
+    .container{
+        max-width: 90%;
+       padding: 0 0px;
+    }
+    .header{
+        /* display: none; */
+    }
+    .main_header .navbar .nav_items{
+        display: none;
+    }
+    /* ---------header section end----------- */
+    .banner{
+        /* display: none; */
+    }
+    .program_highlight{
+        width: 100%;
+        /* display: none; */
+    }
+    .program_highlight .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .company_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .company_section .company_logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }  
+    /* ---------company section end --------- */
+    .enterprise_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .enterprise_section .flex_col{
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+    .enterprise_section .div{
+        display: block;
+    }
+    .enterprise_section .div .item1 h4{
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .enterprise_section .div .item1 h4::before{
+        display: none;
+    }
+    .enterprise_section .div .item1 h4::after{
+        margin-top: -8px;
+    }
+    .enterprise_section .div .item2 p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .enterprise_section .item3{
+        line-height: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+    /*----------- enterprice section end------- */
+    .our_alumni{
+        width: 100%;
+        /* display: none; */
+    }
+    .our_alumni h2{
+        padding-top: 0;
+    }
+    /* -------------our alumni section end ----------- */
+    .program_outcome{
+        width: 100%;
+        /* display: none; */
+    }
+    .program_outcome .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .program_outcome .left_col {
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .program_outcome .right_col{
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .program_outcome .right_col .prog_info{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .program_outcome .right_col .prog_info li p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* -------------program_outcome section end ----------- */
+    .mql_program_etails{
+        width: 100%;
+        /* display: none; */
+    }
+    .mql_program_etails h2{
+        font-size: 28px;
+        margin-top: 36px;
+    }
+    .mql_program_etails_wapper .timeline_bar{
+        padding: 20px;
+    }
+    .mql_program_etails_wapper .timeline_bar ul .faq_item button{
+        padding-right: 50px;
+    }
+    /*  ---------    .mql_program_etails section end -------------*/
+    .skill_covered{
+        width: 100%;
+        /* display: none; */
+    }
+    .skill_covered .skill_group{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* -------skill_covered section end------- */
+    .total_covered_wrapper{
+        width: 100%;
+        /* display: none; */
+    }
+    .total_covered_wrapper .col_flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*  ------totall covered wrapper section end--------- */
+    .industry_project{
+        width: 100%;
+        display: none;
+    }
+    .industry_project .item{
+        height: 350px;
+    }
+    /* -----industry project section start ------ */
+    .dsbp_advisor{
+        width: 100%;
+        height: 60vh;
+        /* display: none; */
+    }
+    .dsbp_advisor .advisor_container{
+        width: 80%;
+    }
+    .advisor_container .advisor_info p{
+        font-size: 16px;
+    }
+    /* -----dsbp advisor section end----- */
+    .eligibilty{
+        width: 100%;
+        /* display: none; */
+    }
+    .eligibilty .eligibilty_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .eligibilty .eligibilty_left ul li{
+        margin: 10px 0;
+    }
+    /* ------ sligibilty section end -----  */
+    .apply_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .apply_section .apply_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .apply_section .left_apply ul li h2{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .apply_section .right_apply{
+        position: relative;
+        width: 100%;
+        padding-bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+    /* -----apply_section end -----  */
+    .pg_enterprice_demand{
+        width: 100%;
+        /* display: none; */
+    }
+    .pg_enterprice_demand .pg_enterprice_info p{
+        font-size: 16px;
+    }
+    /* pg enterprice demand section end */
+    .faqs_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .faqs_section h2{
+        padding-top: 30px;
+    }
+    /*---------- faqs section end--------- */
+    .other_program{
+        width: 100%;
+        /* display: none; */
+    }
+    /* ---------other program section end---------- */
+    .partners_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .partners_section .col_flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    /* -------partners section end----------- */  .partners_section .right_col img {
+        order: -1;
+    }
+    .partners_section .left_col{
+        order: 2;
+    }
+    /* -------partners sectio end */
+    .footer_section{
+        width: 100%;
+        /* display: none; */
+    }
+    .footer_info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer_info .right_col {
+        margin-top: 0;
+    }
+    .privacy_item{
+        display: block;
+    }
+    .privacy_item .right_item p{
+        margin-top: 10px;
+    }
+}
+
+/* ---------------- */
+/* --------mobile Device-------- */
+@media (max-width:430px) {
+    .header{
+        width: 100%;
+    }
+    .banner{
+        display: none;
+    }
+    .program_highlight{
+        padding: 20px 0;
+    }
+    .program_highlight .info h2{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .program_highlight .info p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .program_outcome {
+        padding: 30px 0;
+    }
+    .program_outcome  h2{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+    .program_outcome .left_col{
+        width: 100%;
+        padding-top: 0;
+    }
+    .mql_program_etails h2{
+        font-size: 20px;
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    .skill_covered h3{
+        margin-bottom: 10px;
+    }
+    .skill_covered .skill_group{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
