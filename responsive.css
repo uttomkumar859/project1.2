@@ -19,6 +19,10 @@
     .header{
         /* display: none; */
     }
+    .header .top_header img{
+        width: 40%;
+        height: 40px;
+    }
     .main_header .navbar .nav_items{
         display: none;
     }
@@ -213,6 +217,9 @@
     }
     .header{
         /* display: none; */
+    }
+    .header .top_header img{
+        width: 50%;
     }
     .main_header .navbar .nav_items{
         display: none;
@@ -471,6 +478,10 @@
 @media (max-width:430px) {
     .header{
         width: 100%;
+    }
+    .header .top_header img{
+        width: 70%;
+        height: 40px;
     }
     .banner{
         display: none;
